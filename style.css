@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+header .bg-gray{
+    background-color: rgba(47, 37, 67, 0.604);
+}
+header .bg-gray .header-logo{
+    color: white;
+}
+.todo-content{
+    margin: 40px 0;  
+}
+.todo-btn{
+    background-color: rgba(47, 37, 67, 0.604);
+    color: white;
+}
+.todo-input:focus{
+    border-color: rgba(47, 37, 67, 0.604);
+    box-shadow: none;
+}
+ul li{
+    list-style: none;
+}
+.todo-list{
+    background-color: rgba(47, 37, 67, 0.604);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.todobox ul li i{
+    float: right;
+    position:relative;
+    top: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.todobox ul li i:hover{
+    color:red;
+}
+
+
+
+
+
+.check {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+
+  .task {
+    font-size: 18px;
+    padding: 0 10px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+    color: #fff;
+  }
+
+  .task:focus {
+    outline: none;
+  }
+
+  .completed {
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+  }
+  .todo-input:readonly{
+    text-decoration: line-through;
+  }
